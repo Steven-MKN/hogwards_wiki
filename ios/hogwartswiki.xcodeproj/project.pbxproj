@@ -12,8 +12,28 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		1744067FB59807B34209D250 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = D0CB21688F1087FD3A5A5054 /* PrivacyInfo.xcprivacy */; };
 		7699B88040F8A987B510C191 /* libPods-hogwartswiki-hogwartswikiTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-hogwartswiki-hogwartswikiTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		9E0334D92C5B44EE00885B34 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9E0334C52C5B44EE00885B34 /* AntDesign.ttf */; };
+		9E0334DA2C5B44EE00885B34 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9E0334C62C5B44EE00885B34 /* Entypo.ttf */; };
+		9E0334DB2C5B44EE00885B34 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9E0334C72C5B44EE00885B34 /* EvilIcons.ttf */; };
+		9E0334DC2C5B44EE00885B34 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9E0334C82C5B44EE00885B34 /* Feather.ttf */; };
+		9E0334DD2C5B44EE00885B34 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9E0334C92C5B44EE00885B34 /* FontAwesome.ttf */; };
+		9E0334DE2C5B44EE00885B34 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9E0334CA2C5B44EE00885B34 /* FontAwesome5_Brands.ttf */; };
+		9E0334DF2C5B44EE00885B34 /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9E0334CB2C5B44EE00885B34 /* FontAwesome5_Regular.ttf */; };
+		9E0334E02C5B44EE00885B34 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9E0334CC2C5B44EE00885B34 /* FontAwesome5_Solid.ttf */; };
+		9E0334E12C5B44EE00885B34 /* FontAwesome6_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9E0334CD2C5B44EE00885B34 /* FontAwesome6_Brands.ttf */; };
+		9E0334E22C5B44EE00885B34 /* FontAwesome6_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9E0334CE2C5B44EE00885B34 /* FontAwesome6_Regular.ttf */; };
+		9E0334E32C5B44EE00885B34 /* FontAwesome6_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9E0334CF2C5B44EE00885B34 /* FontAwesome6_Solid.ttf */; };
+		9E0334E42C5B44EE00885B34 /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9E0334D02C5B44EE00885B34 /* Fontisto.ttf */; };
+		9E0334E52C5B44EE00885B34 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9E0334D12C5B44EE00885B34 /* Foundation.ttf */; };
+		9E0334E62C5B44EE00885B34 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9E0334D22C5B44EE00885B34 /* Ionicons.ttf */; };
+		9E0334E72C5B44EE00885B34 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9E0334D32C5B44EE00885B34 /* MaterialCommunityIcons.ttf */; };
+		9E0334E82C5B44EE00885B34 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9E0334D42C5B44EE00885B34 /* MaterialIcons.ttf */; };
+		9E0334E92C5B44EE00885B34 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9E0334D52C5B44EE00885B34 /* Octicons.ttf */; };
+		9E0334EA2C5B44EE00885B34 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9E0334D62C5B44EE00885B34 /* SimpleLineIcons.ttf */; };
+		9E0334EB2C5B44EE00885B34 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9E0334D72C5B44EE00885B34 /* Zocial.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +56,7 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = hogwartswiki/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = hogwartswiki/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = hogwartswiki/main.m; sourceTree = "<group>"; };
-	    13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = hogwartswiki/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = hogwartswiki/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-hogwartswiki-hogwartswikiTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-hogwartswiki-hogwartswikiTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B4392A12AC88292D35C810B /* Pods-hogwartswiki.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hogwartswiki.debug.xcconfig"; path = "Target Support Files/Pods-hogwartswiki/Pods-hogwartswiki.debug.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-hogwartswiki.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hogwartswiki.release.xcconfig"; path = "Target Support Files/Pods-hogwartswiki/Pods-hogwartswiki.release.xcconfig"; sourceTree = "<group>"; };
@@ -44,6 +64,26 @@
 		5DCACB8F33CDC322A6C60F78 /* libPods-hogwartswiki.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-hogwartswiki.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = hogwartswiki/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-hogwartswiki-hogwartswikiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hogwartswiki-hogwartswikiTests.release.xcconfig"; path = "Target Support Files/Pods-hogwartswiki-hogwartswikiTests/Pods-hogwartswiki-hogwartswikiTests.release.xcconfig"; sourceTree = "<group>"; };
+		9E0334C52C5B44EE00885B34 /* AntDesign.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AntDesign.ttf; sourceTree = "<group>"; };
+		9E0334C62C5B44EE00885B34 /* Entypo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Entypo.ttf; sourceTree = "<group>"; };
+		9E0334C72C5B44EE00885B34 /* EvilIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = EvilIcons.ttf; sourceTree = "<group>"; };
+		9E0334C82C5B44EE00885B34 /* Feather.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Feather.ttf; sourceTree = "<group>"; };
+		9E0334C92C5B44EE00885B34 /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
+		9E0334CA2C5B44EE00885B34 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome5_Brands.ttf; sourceTree = "<group>"; };
+		9E0334CB2C5B44EE00885B34 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome5_Regular.ttf; sourceTree = "<group>"; };
+		9E0334CC2C5B44EE00885B34 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome5_Solid.ttf; sourceTree = "<group>"; };
+		9E0334CD2C5B44EE00885B34 /* FontAwesome6_Brands.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome6_Brands.ttf; sourceTree = "<group>"; };
+		9E0334CE2C5B44EE00885B34 /* FontAwesome6_Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome6_Regular.ttf; sourceTree = "<group>"; };
+		9E0334CF2C5B44EE00885B34 /* FontAwesome6_Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome6_Solid.ttf; sourceTree = "<group>"; };
+		9E0334D02C5B44EE00885B34 /* Fontisto.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fontisto.ttf; sourceTree = "<group>"; };
+		9E0334D12C5B44EE00885B34 /* Foundation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Foundation.ttf; sourceTree = "<group>"; };
+		9E0334D22C5B44EE00885B34 /* Ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ionicons.ttf; sourceTree = "<group>"; };
+		9E0334D32C5B44EE00885B34 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaterialCommunityIcons.ttf; sourceTree = "<group>"; };
+		9E0334D42C5B44EE00885B34 /* MaterialIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaterialIcons.ttf; sourceTree = "<group>"; };
+		9E0334D52C5B44EE00885B34 /* Octicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Octicons.ttf; sourceTree = "<group>"; };
+		9E0334D62C5B44EE00885B34 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SimpleLineIcons.ttf; sourceTree = "<group>"; };
+		9E0334D72C5B44EE00885B34 /* Zocial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Zocial.ttf; sourceTree = "<group>"; };
+		D0CB21688F1087FD3A5A5054 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = hogwartswiki/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -94,6 +134,7 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 				13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */,
+				D0CB21688F1087FD3A5A5054 /* PrivacyInfo.xcprivacy */,
 			);
 			name = hogwartswiki;
 			sourceTree = "<group>";
@@ -118,6 +159,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				9E0334D82C5B44EE00885B34 /* Fonts */,
 				13B07FAE1A68108700A75B9A /* hogwartswiki */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* hogwartswikiTests */,
@@ -137,6 +179,33 @@
 				00E356EE1AD99517003FC87E /* hogwartswikiTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		9E0334D82C5B44EE00885B34 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				9E0334C52C5B44EE00885B34 /* AntDesign.ttf */,
+				9E0334C62C5B44EE00885B34 /* Entypo.ttf */,
+				9E0334C72C5B44EE00885B34 /* EvilIcons.ttf */,
+				9E0334C82C5B44EE00885B34 /* Feather.ttf */,
+				9E0334C92C5B44EE00885B34 /* FontAwesome.ttf */,
+				9E0334CA2C5B44EE00885B34 /* FontAwesome5_Brands.ttf */,
+				9E0334CB2C5B44EE00885B34 /* FontAwesome5_Regular.ttf */,
+				9E0334CC2C5B44EE00885B34 /* FontAwesome5_Solid.ttf */,
+				9E0334CD2C5B44EE00885B34 /* FontAwesome6_Brands.ttf */,
+				9E0334CE2C5B44EE00885B34 /* FontAwesome6_Regular.ttf */,
+				9E0334CF2C5B44EE00885B34 /* FontAwesome6_Solid.ttf */,
+				9E0334D02C5B44EE00885B34 /* Fontisto.ttf */,
+				9E0334D12C5B44EE00885B34 /* Foundation.ttf */,
+				9E0334D22C5B44EE00885B34 /* Ionicons.ttf */,
+				9E0334D32C5B44EE00885B34 /* MaterialCommunityIcons.ttf */,
+				9E0334D42C5B44EE00885B34 /* MaterialIcons.ttf */,
+				9E0334D52C5B44EE00885B34 /* Octicons.ttf */,
+				9E0334D62C5B44EE00885B34 /* SimpleLineIcons.ttf */,
+				9E0334D72C5B44EE00885B34 /* Zocial.ttf */,
+			);
+			name = Fonts;
+			path = "../node_modules/react-native-vector-icons/Fonts";
 			sourceTree = "<group>";
 		};
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
@@ -243,8 +312,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E0334D92C5B44EE00885B34 /* AntDesign.ttf in Resources */,
+				9E0334DE2C5B44EE00885B34 /* FontAwesome5_Brands.ttf in Resources */,
+				9E0334DD2C5B44EE00885B34 /* FontAwesome.ttf in Resources */,
+				9E0334DA2C5B44EE00885B34 /* Entypo.ttf in Resources */,
+				9E0334DC2C5B44EE00885B34 /* Feather.ttf in Resources */,
+				9E0334E32C5B44EE00885B34 /* FontAwesome6_Solid.ttf in Resources */,
+				9E0334E52C5B44EE00885B34 /* Foundation.ttf in Resources */,
+				9E0334E42C5B44EE00885B34 /* Fontisto.ttf in Resources */,
+				9E0334E02C5B44EE00885B34 /* FontAwesome5_Solid.ttf in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				9E0334E62C5B44EE00885B34 /* Ionicons.ttf in Resources */,
+				9E0334DF2C5B44EE00885B34 /* FontAwesome5_Regular.ttf in Resources */,
+				9E0334DB2C5B44EE00885B34 /* EvilIcons.ttf in Resources */,
+				9E0334EB2C5B44EE00885B34 /* Zocial.ttf in Resources */,
+				9E0334E72C5B44EE00885B34 /* MaterialCommunityIcons.ttf in Resources */,
+				9E0334E82C5B44EE00885B34 /* MaterialIcons.ttf in Resources */,
+				9E0334E12C5B44EE00885B34 /* FontAwesome6_Brands.ttf in Resources */,
+				9E0334E92C5B44EE00885B34 /* Octicons.ttf in Resources */,
+				9E0334EA2C5B44EE00885B34 /* SimpleLineIcons.ttf in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				9E0334E22C5B44EE00885B34 /* FontAwesome6_Regular.ttf in Resources */,
+				1744067FB59807B34209D250 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -582,7 +671,13 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
+				USE_HERMES = true;
 			};
 			name = Debug;
 		};
@@ -647,7 +742,13 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
+				USE_HERMES = true;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;

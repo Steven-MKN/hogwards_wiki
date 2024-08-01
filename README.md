@@ -2,7 +2,21 @@ This is a new [**React Native**](https://reactnative.dev) project, bootstrapped 
 
 # Getting Started
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+> **Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+
+- Also ensure you have core pack enabled with
+
+```bash
+corepack enable
+```
+
+for more read [Corepack](https://yarnpkg.com/corepack)
+
+- The modules are installed with yarn, for consistency we suggest you use yarn as well. Istall the modules with
+
+```bash
+y install
+```
 
 ## Step 1: Start the Metro Server
 
