@@ -38,7 +38,7 @@ export enum CharacterActionTypes {
 }
 
 export interface CharacterReducerGenericAction {
-  payload: Partial<Character>;
+  payload: Partial<Character> | Character[];
   type: CharacterActionTypes;
 }
 
@@ -55,7 +55,7 @@ export const characterReducer = (
     case CharacterActionTypes.SELECT_CHARACTER:
       return {
         ...state,
-        selectedCharacterId: action.payload.id ?? null,
+        selectedCharacterId: (action.payload as { id: string }).id,
       };
     default:
       throw new Error('Unknown action type: ' + action.type);
