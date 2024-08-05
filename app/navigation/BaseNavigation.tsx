@@ -19,14 +19,14 @@ const CharactersScreenStack: React.FC = () => {
     >
       <CharactorsStack.Screen
         name='CharactersScreen'
-        options={{ title: 'Characters' }}
+        options={{ title: 'Characters', headerShown: false }}
         component={CharactersScreen}
       />
       <CharactorsStack.Screen
         name='CharacterDetailsScreen'
         component={CharacterDetailsScreen}
         // @ts-ignore
-        options={({ route }) => ({ title: route?.params?.name })}
+        options={({ route }) => ({ title: route?.params?.name, headerShown: false })}
       />
     </CharactorsStack.Navigator>
   );
