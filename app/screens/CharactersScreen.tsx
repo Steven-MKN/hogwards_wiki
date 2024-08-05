@@ -16,7 +16,6 @@ const CharactersScreen: React.FC = () => {
   useEffect(() => {
     (async () => {
       const characters = await getCharacters();
-      console.log(characters);
       characterDispatch({ type: CharacterActionTypes.SET_CHARACTERS, payload: characters ?? [] });
     })();
   }, []);

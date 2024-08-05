@@ -5,6 +5,8 @@ import { useTheme } from "react-native-paper";
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 import CharacterDetailsScreen from "../screens/CharacterDetailsScreen";
 import CharactersScreen from "../screens/CharactersScreen";
+import HouseDetailsScreen from "../screens/HouseDetailsScreen";
+import HousesScreen from "../screens/HousesScreen";
 import { AppThemeType } from "../utils/theme";
 
 const Tab = createBottomTabNavigator();
@@ -32,6 +34,26 @@ const CharactersScreenStack: React.FC = () => {
   );
 };
 
+const HousesScreenStack: React.FC = () => {
+  return (
+    <HousesStack.Navigator
+      initialRouteName="HousesScreen"
+    >
+      <CharactorsStack.Screen
+        name='HousesScreen'
+        options={{ title: 'Houses', headerShown: false }}
+        component={HousesScreen}
+      />
+      <CharactorsStack.Screen
+        name='HouseDetailsScreen'
+        component={HouseDetailsScreen}
+        // @ts-ignore
+        options={{ title: 'HouseDetailsScreen', headerShown: false }}
+      />
+    </HousesStack.Navigator>
+  )
+}
+
 const BaseNavigation: React.FC = () => {
   const theme = useTheme<AppThemeType>();
 
@@ -41,11 +63,26 @@ const BaseNavigation: React.FC = () => {
         headerShown: true,
         tabBarHideOnKeyboard: true,
       }}
-      initialRouteName='CharactersScreen'
+      initialRouteName='CharactersStack'
     >
       <Tab.Screen
-        name='CharactersScreen'
+        name='CharactersStack'
         component={CharactersScreenStack}
+        options={{
+          tabBarIcon: ({ focused, size }) => (
+            <MaterialCommunityIcons
+              name={'account-multiple'}
+              size={size}
+              color={focused ? theme.colors.primary : theme.colors.onTertiary}
+            />
+          ),
+          title: 'Characters',
+        }}
+      />
+
+      <Tab.Screen
+        name='HousesStack'
+        component={HousesScreenStack}
         options={{
           tabBarIcon: ({ focused, size }) => (
             <MaterialCommunityIcons
@@ -54,7 +91,7 @@ const BaseNavigation: React.FC = () => {
               color={focused ? theme.colors.primary : theme.colors.onTertiary}
             />
           ),
-          title: 'Characters',
+          title: 'Houses',
         }}
       />
     </Tab.Navigator>
