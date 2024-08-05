@@ -8,6 +8,7 @@ import { Appearance } from 'react-native';
 import { PaperProvider } from 'react-native-paper';
 import BaseNavigation from './app/navigation/BaseNavigation';
 import { ToastProvider } from './app/providers/toastProvider';
+import { StoreProvider } from './app/store/StroreProvider';
 import { darkTheme, lightTheme } from './app/utils/theme';
 
 export default function App() {
@@ -20,11 +21,13 @@ export default function App() {
 
   return (
     <PaperProvider theme={theme}>
-      <ToastProvider>
-        <NavigationContainer>
-          <BaseNavigation />
-        </NavigationContainer>
-      </ToastProvider>
+      <StoreProvider>
+        <ToastProvider>
+          <NavigationContainer>
+            <BaseNavigation />
+          </NavigationContainer>
+        </ToastProvider>
+      </StoreProvider>
     </PaperProvider>
   );
 }
